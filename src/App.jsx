@@ -58,7 +58,7 @@ const App = () => {
               </svg>
             </div>
             <div className="nav-elem">
-              <i className="ri-arrow-right-s-line"></i> Our Show reel
+              <i className="ri-arrow-right-s-line"></i> Our Showreel
             </div>
             <div className="nav-elem">
               <i className="ri-menu-3-line"></i>
