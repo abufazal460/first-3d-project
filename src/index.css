@@ -166,7 +166,6 @@ section {
   }
 }
 
-
 main:has(#section-2 .title:hover) #canvas-elem::after {
   opacity: 0;
 }
@@ -190,11 +189,15 @@ main:has(#section-2 .title:hover) #canvas-elem::after {
   }
 }
 
-main:has(#section-2 .title[img-title="tomorrowland"]:hover) .images #tomorrowland {
+main:has(#section-2 .title[img-title="tomorrowland"]:hover)
+  .images
+  #tomorrowland {
   opacity: 1;
 }
 
-main:has(#section-2 .title[img-title="tomorrowland"]:hover) .images #tomorrowland {
+main:has(#section-2 .title[img-title="tomorrowland"]:hover)
+  .images
+  #tomorrowland {
   opacity: 1;
   background-color: rgb(4, 7, 24);
 }
@@ -204,7 +207,9 @@ main:has(#section-2 .title[img-title="navy-pier"]:hover) .images #navy-pier {
   background-color: rgb(4, 7, 24);
 }
 
-main:has(#section-2 .title[img-title="msi-chicago"]:hover) .images #msi-chicago {
+main:has(#section-2 .title[img-title="msi-chicago"]:hover)
+  .images
+  #msi-chicago {
   opacity: 1;
   background-color: rgb(4, 7, 24);
 }
@@ -218,10 +223,12 @@ main:has(#section-2 .title[img-title="kikk"]:hover) .images #kikk {
   opacity: 1;
   background-color: rgba(1, 15, 92, 0.679);
 }
+
 main:has(#section-2 .title[img-title="kennedy"]:hover) .images #kennedy {
   opacity: 1;
   background-color: rgb(4, 7, 24);
 }
+
 main:has(#section-2 .title[img-title="opera"]:hover) .images #opera {
   opacity: 1;
   background-color: rgb(176, 4, 4);
