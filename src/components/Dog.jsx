@@ -45,26 +45,26 @@ const Dog = () => {
   });
 
   const [
-    mat1,
+    // mat1,
     mat2,
-    mat3,
-    mat4,
-    mat5,
-    mat6,
-    mat7,
+    // mat3,
+    // mat4,
+    // mat5,
+    // mat6,
+    // mat7,
     mat8,
     mat9,
     mat10,
-    mat11,
+    // mat11,
     mat12,
     mat13,
-    mat14,
-    mat15,
-    mat16,
-    mat17,
-    mat18,
+    // mat14,
+    // mat15,
+    // mat16,
+    // mat17,
+    // mat18,
     mat19,
-    mat20,
+    // mat20,
   ] = useTexture([
     "/matcap/mat-1.png",
     "/matcap/mat-2.png",
@@ -297,7 +297,7 @@ const Dog = () => {
         },
       });
     });
-  }, []);
+  }, [mat10 , mat12 , mat13 , mat19 , mat2 , mat8 , mat9]);
 
   return (
     <>
