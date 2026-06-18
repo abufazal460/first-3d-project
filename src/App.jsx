@@ -130,6 +130,7 @@ const App = () => {
             </div>
           </div>
         </section>
+
         <section id="section-4">
           
             <div className="bottom">
@@ -143,9 +144,7 @@ const App = () => {
               </p>
               </div>
             </div>
-          <footer></footer>
         </section>
-
 
       </main>
     </>

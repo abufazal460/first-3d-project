@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&family=Heebo:wght@100..900&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Orbitron:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=SN+Pro:ital,wght@0,200..900;1,200..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Urbanist:ital,wght@0,100..900;1,100..900&family=Zalando+Sans+Expanded:ital,wght@0,200..900;1,200..900&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -66,11 +67,19 @@ section {
     .nav-elem:nth-child(2) {
       i {
         color: red;
+        /* font-size: 2rem; */
         cursor: pointer;
+        padding: 0 0.6rem;
+        font-weight: 600;
         transition: all 0.3s linear;
       }
     }
     
+    .nav-elem:nth-child(3) {
+      i {
+        font-size: 1.5rem;
+      }
+    }
 
     .nav-elem  {
       cursor: pointer;
@@ -142,7 +151,6 @@ section {
     right: 12%;
   }
 }
-
 
 #section-2 {
   .titles {
@@ -261,15 +269,14 @@ section {
       opacity: 0.9;
       line-height: 1.8;
       padding: 0 2rem;
+        font-family: "Heebo", sans-serif;
+
     }
      
   }
 }
 
-footer {
-  border: 2px solid red;
-  height: 10vh;
-}
+
 
 main:has(#section-2 .title:hover) #canvas-elem::after {
   opacity: 0;
