@@ -5,7 +5,6 @@ const App = () => {
   return (
     <>
       <main>
-
         <div className="images">
           <img id="tomorrowland" src="/tommorowland.png" alt="" />
           <img id="navy-pier" src="/navy-pier.png" alt="" />
@@ -119,7 +118,35 @@ const App = () => {
           </div>
         </section>
 
-        <section id="section-3"></section>
+        <section id="section-3">
+          <div className="top">
+            <div className="left">
+              <h2>
+                We're crafting <br /> emotional <br /> experiences aimed <br /> at improving results
+              </h2>
+            </div>
+            <div className="right">
+              
+            </div>
+          </div>
+        </section>
+        <section id="section-4">
+          
+            <div className="bottom">
+              <div className="left"></div>
+              <div className="right">
+                <p>Dogstudio is a design & technology firm working globally from our offices based in Belgium and Chicago.  Our strong focus on producing high quality & emotional brandings, digital products and experiences became a signature.
+              </p>
+              <p>
+                <p>We’re passionate about moving people and solving problems for the likes of Microsoft, The Museum of Science And Industry Of Chicago, The Kennedy Center of Washington, Dragone, Quanta Magazine, and many more.
+              </p>
+              </p>
+              </div>
+            </div>
+          <footer></footer>
+        </section>
+
+
       </main>
     </>
   );

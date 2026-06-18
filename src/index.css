@@ -144,7 +144,6 @@ section {
 }
 
 
-
 #section-2 {
   .titles {
     display: flex;
@@ -155,7 +154,7 @@ section {
       display: flex;
       gap: 8rem;
       opacity: 0.3;
-      padding-block: 2rem;
+      margin-block: 2rem;
       transition: all 0.3s linear;
       cursor: pointer;
 
@@ -177,6 +176,99 @@ section {
   .title:hover {
     opacity: 1;
   }
+}
+
+#section-3 {
+  min-height: 100%!important;
+  padding-block: 10rem;
+  padding-inline: 10rem;
+  position: relative;
+  z-index: 0;
+
+  .top,.bottom {
+    display: flex;
+    width: 100%;
+    gap: 2rem;
+  }
+
+  .left,.right {
+    width: 50%;
+
+    h2 {
+      font-size: 2.2rem;
+      color: white;
+    }
+  }
+
+
+  .top .left {
+    text-align: right;
+    padding-right: 4rem;
+  }
+
+  .bottom,.right {
+    display: flex;
+
+    p:nth-child(1) {
+      font-weight: 200;
+      opacity: 0.4;
+      
+    }
+
+    p {
+      opacity: 0.9;
+      line-height: 1.8;
+      padding: 0 2rem;
+    }
+     
+  }
+}
+
+#section-4 {
+  /* border: 2px solid blue; */
+  min-height: 100%!important;
+  width: 100%!important;
+  
+  .top,.bottom {
+    display: flex;
+    width: 100%;
+    gap: 1rem;
+    /* border: 2px solid green; */
+  }
+  
+  .left,.right {
+    width: 50%;
+    /* border: 2px solid yellow; */
+
+    
+  }
+
+  .top .left {
+    text-align: right;
+    padding-right: 4rem;
+  }
+
+  .bottom,.right {
+    display: flex;
+
+    p:nth-child(1) {
+      font-weight: 200;
+      opacity: 0.4;
+      
+    }
+
+    p {
+      opacity: 0.9;
+      line-height: 1.8;
+      padding: 0 2rem;
+    }
+     
+  }
+}
+
+footer {
+  border: 2px solid red;
+  height: 10vh;
 }
 
 main:has(#section-2 .title:hover) #canvas-elem::after {
